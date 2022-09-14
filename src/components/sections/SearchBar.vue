@@ -4,16 +4,17 @@
           <div class="lang" style="align-self: center;">
               <img src="../../assets/img/MasterStudy.svg" alt="">
           </div>
-          <div class="Searchbar">
-            Category
-            <input type="text" style="width: 600px">
+          <div class="MiddleSearch">
+            <span style="margin-right: 20px;">Category</span>
+            <input type="text" class="SearchBar">
+            <button class="SearchButton"></button>
           </div>
-          <div class="topnavbar">
+          <div class="RightSearch">
               <ul>
                   <li>Become an Instructor</li>
                   <li>For Enterprise</li>
                   <li>Log in</li>
-                  <li><a href=""></a></li>
+                  <li><a href="">SIGN UP</a></li>
                   <li>heart</li>
               </ul>
           </div>
@@ -40,10 +41,6 @@
           margin-left: 5%;
           align-items: center;
 
-          .topnavbar {
-              display: flex;
-              align-items: center;
-
               ul {
                   list-style-type: none;
                   margin: auto ;
@@ -53,7 +50,6 @@
                       display: inline;
                       margin-right: 20px;
                       
-                      
                       img {
                           height: 17px;
                           align-self: center;
@@ -62,10 +58,25 @@
                   }
               }
           }
-      }
+      
       .arrow {
           height: 12px;
           margin-left: 5px;
+      }
+
+      .MiddleSearch{
+        display: flex;
+        align-items: center;
+      }
+
+      .SearchBar{
+        width: 600px;
+        height: 45px;
+      }
+
+      .SearchButton {
+        width: 60px;
+        height: 50px;
       }
   }
 

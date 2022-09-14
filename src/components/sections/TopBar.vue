@@ -44,7 +44,6 @@
             height: 55px;
             margin-right: 5%;
             margin-left: 5%;
-            margin-bottom: 20px;
             align-items: center;
 
             .topnavbar {
