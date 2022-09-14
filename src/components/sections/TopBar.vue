@@ -42,8 +42,8 @@
             display: flex;
             justify-content: space-between;
             height: 55px;
-            margin-right: 5%;
-            margin-left: 5%;
+            margin-right: 6%;
+            margin-left: 6%;
             align-items: center;
 
             .topnavbar {

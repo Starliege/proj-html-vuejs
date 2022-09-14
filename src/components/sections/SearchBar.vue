@@ -2,7 +2,7 @@
   <div class="container">
       <div class="topbar">
           <div class="lang" style="align-self: center;">
-              <img src="../../assets/img/MasterStudy.svg" alt="">
+              <img src="../../assets/img/MasterStudy.svg" alt="" style="height: 45px;">
           </div>
           <div class="MiddleSearch">
             <span style="margin-right: 20px;">Category</span>
@@ -37,8 +37,8 @@
           display: flex;
           justify-content: space-between;
           height: 105px;
-          margin-right: 5%;
-          margin-left: 5%;
+          margin-right: 6%;
+          margin-left: 6%;
           align-items: center;
 
               ul {
