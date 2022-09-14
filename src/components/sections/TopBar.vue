@@ -32,10 +32,7 @@
     </script>
     
 
-<style lang="scss">
-    body {
-        margin: 0 auto;
-    }
+<style lang="scss" scoped>
     .container {
         border-bottom: solid 1px lightgray;
         color: gray;
@@ -44,24 +41,16 @@
         .topbar {
             display: flex;
             justify-content: space-between;
-            height: 25px;
+            height: 55px;
             margin-right: 5%;
             margin-left: 5%;
             margin-bottom: 20px;
             align-items: center;
-            
-            .lang {
-                margin-top: 20px;
-
-                img {
-                    filter: grayscale(100%);
-                }
-            }
 
             .topnavbar {
                 display: flex;
                 align-items: center;
-                margin-top: 20px;
+                
 
                 ul {
                     list-style-type: none;
