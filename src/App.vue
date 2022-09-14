@@ -5,8 +5,7 @@
 </template>
 
 <script>
-import HeaderPage from './components/HeaderPage.vue';
-
+import HeaderPage from './components/macro/HeaderPage.vue';
 
 export default {
   name: 'App',

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="topbar">
             <div class="lang" style="align-self: center;">
-                English <img class="arrow" src="../assets/img/icons/down-arrow-svgrepo-com.svg" alt="">
+                English <img class="arrow" src="../../assets/img/icons/down-arrow-svgrepo-com.svg" alt="">
             </div>
             <div class="topnavbar">
                 <ul>
@@ -13,17 +13,24 @@
                     <li>Demos</li>
                 </ul>
                 <ul>
-                    <li class="icon"><img src="../assets/img/icons/facebook.svg" alt=""></li>
-                    <li class="icon"><img src="../assets/img/icons/twitter.svg" alt=""></li>
-                    <li class="icon"><img src="../assets/img/icons/ig.svg" alt=""></li>
-                    <li class="icon"><img src="../assets/img/icons/linkedin.svg" alt=""></li>
-                    <li class="icon"><img src="../assets/img/icons/google.svg" alt=""></li>
-                    <li class="icon"><img src="../assets/img/icons/youtube.svg" alt=""></li>
+                    <li class="icon"><img src="../../assets/img/icons/fb.svg" alt=""></li>
+                    <li class="icon"><img src="../../assets/img/icons/twt.svg" alt=""></li>
+                    <li class="icon"><img src="../../assets/img/icons/ig.svg" alt=""></li>
+                    <li class="icon"><img src="../../assets/img/icons/ln.svg" alt=""></li>
+                    <li class="icon"><img src="../../assets/img/icons/g.svg" alt=""></li>
+                    <li class="icon"><img src="../../assets/img/icons/yt.svg" alt=""></li>
                 </ul>
             </div>
         </div>
     </div>
 </template>
+
+<script>
+    export default {
+      name: "TopBar",
+    };
+    </script>
+    
 
 <style lang="scss">
     body {
@@ -80,4 +87,6 @@
             margin-left: 5px;
         }
     }
+
+    
 </style>
