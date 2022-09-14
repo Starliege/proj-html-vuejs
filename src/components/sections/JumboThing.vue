@@ -26,16 +26,17 @@ export default {
 
     .firsthalf {
         position: absolute;
-        width: 60%;
+        width: 50%;
         height: 400px;
         z-index: 1;
         background: red;
-        opacity: 0.9;
+        opacity: 1;
         display: flex;
 
         ul {
             list-style-type: none;
             margin: auto;
+            z-index: 5;
 
             li {
                 display: inline;
@@ -52,13 +53,13 @@ export default {
 }
 
 .firsthalf::before {
-    content: '';
+    content: "";
     position: absolute;
-    top: 0;
-    right: 0;
-    border-top: 400px solid white;
-    border-left: 200px solid red;
-    opacity: 1;
+    width: 0;
+    height: 0;
+    border-bottom: 400px solid red;
+    border-right: 200px solid transparent;
+    border-left: 980px solid red;
 }
 
 .secondhalf {
@@ -67,7 +68,7 @@ export default {
     position: absolute;
     top: 0px;
     left: 49%;
-    width: 55%;
+    width: 100%;
     z-index: 0;
     border-radius: 5px;
 
