@@ -14,7 +14,7 @@ import ChoiceBar from '../sections/ChoiceBar.vue';
 import JumboThing from '../sections/JumboThing.vue';
 
   export default {
-    name: 'App',
+    name: 'HeaderPage',
     components: {
     TopBar,
     SearchBar,

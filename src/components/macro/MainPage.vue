@@ -21,7 +21,7 @@ import InvestingFuture from '../sections/InvestingFuture.vue';
 
 
   export default {
-    name: 'App',
+    name: 'MainPage',
     components: {
     PostJumbo,
     UnlimitedLearning,
