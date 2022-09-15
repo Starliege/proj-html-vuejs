@@ -20,8 +20,8 @@ import JumboThing from '../sections/JumboThing.vue';
     SearchBar,
     ChoiceBar,
     JumboThing
+  },
 }
-  }
   </script>
   
   <style lang="scss">

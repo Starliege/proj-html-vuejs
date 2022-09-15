@@ -22,7 +22,7 @@ export default {
     
 <style lang="scss" scoped>
 .container {
-    margin-bottom: 60px;
+    margin-bottom: 470px;
 
     .jumbo {
         position: relative;

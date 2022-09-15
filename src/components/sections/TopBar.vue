@@ -6,11 +6,7 @@
             </div>
             <div class="topnavbar">
                 <ul>
-                    <li>Home</li>
-                    <li>Pages</li>
-                    <li>Course Formats</li>
-                    <li>Courses</li>
-                    <li>Demos</li>
+                    <li v-for="nav in navs" :key="nav.navver">{{ nav.navver }}</li>
                 </ul>
                 <ul>
                     <li class="icon"><img src="../../assets/img/icons/fb.svg" alt=""></li>
@@ -28,7 +24,18 @@
 <script>
     export default {
       name: "TopBar",
-    };
+      data (){
+        return {
+            navs: [
+                {navver: 'Home'},
+                {navver: 'Pages'},
+                {navver: 'Course Formats'},
+                {navver: 'Courses'},
+                {navver: 'Demos'}
+            ]
+        }
+  }
+}
     </script>
     
 
