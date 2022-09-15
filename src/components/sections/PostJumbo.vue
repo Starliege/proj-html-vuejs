@@ -98,22 +98,20 @@
 <style lang="scss" scoped>
     .container {
         height: 560px;
-        width: 93%;
-        padding-left: 4%;
-        padding-right: 3%;
         margin-bottom: -40px;
 
         h1 {
             font-size: 24px;
             font-weight: bold;
             margin-bottom: 40px;
-            margin-left: 10px;
+            margin-left: 5%;
         }
 
         .cardcontainer {
 
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
 
             .card {
                 width: 270px;

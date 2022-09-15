@@ -194,9 +194,7 @@
 <style lang="scss" scoped>
     .container {
         height: 1150px;
-        width: 93%;
-        padding-left: 4%;
-        padding-right: 3%;
+
 
         h1 {
             font-size: 48px;
@@ -219,6 +217,7 @@
 
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
 
             .card {
                 width: 270px;

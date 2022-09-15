@@ -3,6 +3,7 @@
         <PostJumbo></PostJumbo>
         <UnlimitedLearning></UnlimitedLearning>
         <RecentCourses></RecentCourses>
+        <NewsLetter></NewsLetter>
     </div>
   </template>
   
@@ -10,6 +11,7 @@
 import PostJumbo from '../sections/PostJumbo.vue';
 import UnlimitedLearning from '../sections/UnlimitedLearning.vue';
 import RecentCourses from '../sections/RecentCourses.vue';
+import NewsLetter from '../sections/NewsLetter.vue';
 
 
   export default {
@@ -17,7 +19,8 @@ import RecentCourses from '../sections/RecentCourses.vue';
     components: {
     PostJumbo,
     UnlimitedLearning,
-    RecentCourses
+    RecentCourses,
+    NewsLetter
 },
 }
   </script>
