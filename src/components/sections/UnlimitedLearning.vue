@@ -22,9 +22,10 @@
     .container {
         height: 530px;
         background-image: url(../../assets/img/bg.png);
+        margin-bottom: 110px;
 
         .textbox {
-            padding-left: 300px;
+            padding-left: 400px;
             padding-top: 100px;
             width: 600px;
 
