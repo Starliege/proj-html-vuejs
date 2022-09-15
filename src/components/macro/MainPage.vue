@@ -4,6 +4,9 @@
         <UnlimitedLearning></UnlimitedLearning>
         <RecentCourses></RecentCourses>
         <NewsLetter></NewsLetter>
+        <PopularCourses></PopularCourses>
+        <InstructorBusiness></InstructorBusiness>
+        <InvestingFuture></InvestingFuture>
     </div>
   </template>
   
@@ -12,6 +15,9 @@ import PostJumbo from '../sections/PostJumbo.vue';
 import UnlimitedLearning from '../sections/UnlimitedLearning.vue';
 import RecentCourses from '../sections/RecentCourses.vue';
 import NewsLetter from '../sections/NewsLetter.vue';
+import PopularCourses from '../sections/PopularCourses.vue';
+import InstructorBusiness from '../sections/InstructorBusiness.vue';
+import InvestingFuture from '../sections/InvestingFuture.vue';
 
 
   export default {
@@ -20,7 +26,10 @@ import NewsLetter from '../sections/NewsLetter.vue';
     PostJumbo,
     UnlimitedLearning,
     RecentCourses,
-    NewsLetter
+    NewsLetter,
+    PopularCourses,
+    InstructorBusiness,
+    InvestingFuture
 },
 }
   </script>

@@ -38,10 +38,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            
-            h2 {
-
-            }
 
             .subtxt {
                 width: 680px;
