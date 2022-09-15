@@ -101,6 +101,7 @@
         width: 93%;
         padding-left: 4%;
         padding-right: 3%;
+        margin-bottom: -40px;
 
         h1 {
             font-size: 24px;
