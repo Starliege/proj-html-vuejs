@@ -63,6 +63,21 @@
                 }
                 p {
                     font-size: 21px;
+                    margin-bottom: 50px;
+                }
+                
+                a {
+                    border-radius: 35px;
+                    background: #ff4450;
+                    padding: 20px;
+                    width: 250px;
+                    height: 150px;
+                    text-decoration: none;
+                    color: white;
+                }
+                a:hover {
+                    background: #46af35;
+                    transition: 0.2s;
                 }
             }
         }
