@@ -5,14 +5,14 @@
         <img src="../../assets/img/MasterStudy.svg" alt="" style="height: 45px;">
       </div>
       <div class="MiddleSearch">
-        <span style="margin-right: 20px;">Category</span>
-        <input type="text" class="SearchBar">
+        <span style="margin-right: 20px; color: gray;">CATEGORY</span>
+        <input type="text" class="SearchBar" placeholder="Search Courses">
         <button class="SearchButton"></button>
       </div>
       <div class="RightSearch">
         <ul>
           <li>Become an Instructor</li>
-          <li>For Enterprise</li>
+          <li><span style="margin-right: 80px;">For Enterprise</span></li>
           <li>Log in</li>
           <li><a href="">SIGN UP</a></li>
           <li><img src="../../assets/img/icons/iconmonstr-heart-thin.svg" alt=""></li>
@@ -49,6 +49,8 @@ export default {
       li {
         display: inline;
         margin-right: 20px;
+        color: darkblue;
+        font-size: 16px;
 
         a {
           border-radius: 35px;
@@ -81,7 +83,7 @@ export default {
   }
 
   .SearchBar {
-    width: 600px;
+    width: 500px;
     height: 45px;
   }
 

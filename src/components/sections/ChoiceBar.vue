@@ -31,7 +31,9 @@
                 
                 li {
                     display: inline;
-                    margin-right: 20px;
+                    margin-right: 80px;
+                    color: white;
+                    font-size: 20px;
                     
                     img {
                         height: 17px;

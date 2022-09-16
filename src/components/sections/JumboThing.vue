@@ -3,8 +3,8 @@
         <div class="jumbo">
             <div class="firsthalf">
                 <div class="textbox">
-                    <span style="display:block; text-align: center;">Become Udemy Affiliate</span>
-                    Import Udemy courses to your website and earn commission on every sale!
+                    <span style="display:flex; color: white; font-size: 52px; margin-bottom: 20px;">Become Udemy Affiliate</span>
+                    <span style="color:white; font-size: 26px;">Import Udemy courses to your website and earn commission on every sale!</span>
                 </div>
             </div>
             <div class="secondhalf">
@@ -40,6 +40,9 @@ export default {
             .textbox {
                 align-self: center;
                 z-index: 5;
+                width: 600px;
+                padding-left: 250px;
+                padding-bottom: 50px;
             }
         }
     }

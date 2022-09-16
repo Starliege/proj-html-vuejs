@@ -97,7 +97,7 @@
 
 <style lang="scss" scoped>
     .container {
-        height: 560px;
+        min-height: 560px;
         margin-bottom: -40px;
 
         h1 {
